@@ -1,0 +1,12 @@
+
+*.o
+
+*.d
+
+*.a
+
+ann/bin/
+
+bin/
+
+registration/trimesh2/bin\.Linux64/
