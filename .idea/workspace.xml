@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6107e189-edbc-4be0-99fe-2a020c987d2f" name="Default Changelist" comment="" />
+    <list default="true" id="6107e189-edbc-4be0-99fe-2a020c987d2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/evaluator/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/evaluator/Makefile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Makefile" value="4" />
+          <entry key="Makefile" value="5" />
           <entry key="Makerules" value="1" />
           <entry key="cc" value="1" />
           <entry key="cpp" value="4" />
@@ -37,12 +39,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ObjectiveC" value="17" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="12" />
+          <entry key="Makefile" value="13" />
           <entry key="cpp" value="53" />
           <entry key="h" value="271" />
           <entry key="hh" value="87" />
@@ -51,18 +53,27 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="411" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sampler/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
               <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluator/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -98,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/modeling/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,6 +130,9 @@
       <replace>LAPACK_$1</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,6 +147,7 @@
         <option value="$PROJECT_DIR$/modeling/DenseEigenSystem.cpp" />
         <option value="$PROJECT_DIR$/modeling/DenseMatrix.cpp" />
         <option value="$PROJECT_DIR$/sampler/Makefile" />
+        <option value="$PROJECT_DIR$/evaluator/Makefile" />
       </list>
     </option>
   </component>
@@ -143,6 +158,7 @@
     <option name="width" value="3026" />
     <option name="height" value="1405" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -158,12 +174,7 @@
             <path>
               <item name="reconbench-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="reconbench-code" type="462c0819:PsiDirectoryNode" />
-              <item name="modeling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reconbench-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reconbench-code" type="462c0819:PsiDirectoryNode" />
-              <item name="sampler" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537571593644</updated>
-      <workItem from="1537571595678" duration="5246000" />
+      <workItem from="1537571595678" duration="5626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5246000" />
+    <option name="totallyTimeSpent" value="5626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="3066" height="1765" extended-state="6" />
@@ -211,7 +222,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,7 +396,7 @@
     <entry file="file://$PROJECT_DIR$/modeling/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -400,6 +411,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluator/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

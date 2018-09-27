@@ -1,12 +1,12 @@
 default:
 	(cd ann; make linux-g++)
-	(cd OpenMesh; make)
-	(cd pbrt/src; make)
-	(cd registration/trimesh2; make)
-	(cd registration/tps_alignment/src; make)
-	(cd modeling; make)
-	(cd sampler; make)
-	(cd evaluator; make)
+	(cd OpenMesh; make -j5)
+	(cd pbrt/src; make -j5)
+	(cd registration/trimesh2; make -j5)
+	(cd registration/tps_alignment/src; make -j5)
+	(cd modeling; make -j5)
+	(cd sampler; make -j5)
+	(cd evaluator; make -j5)
 
 clean:
 	(cd ann; make realclean)

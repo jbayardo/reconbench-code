@@ -9,7 +9,7 @@ OPENMESH_LIB = ../OpenMesh/lib
 ANN_LIB = ../ann/lib
 
 CXXFLAGS = -O3 -I$(OPENMESH_INC) -I$(ANN_INC) -g
-LDFLAGS = -O3 -lblas -llapack -L$(OPENMESH_LIB) -lOpenMeshCore -L$(ANN_LIB) -lANN
+LDFLAGS = -L$(OPENMESH_LIB) -lOpenMeshCore -L$(ANN_LIB) -lANN -lblas -llapack
 
 CXXFLAGS += -DHAS_TEEM=0
 
